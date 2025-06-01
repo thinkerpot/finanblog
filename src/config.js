@@ -1,2 +1,2 @@
-export const SITE_TITLE = "Cassidy's blog template";
-export const SITE_DESCRIPTION = "A blog template for you!";
+export const SITE_TITLE = "Finance by EduCentrals";
+export const SITE_DESCRIPTION = "Tips Keuangan, Bisnis, dan Investasi Cerdas untuk Generasi Melek Cuan.";
