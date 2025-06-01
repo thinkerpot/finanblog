@@ -1,5 +1,5 @@
 ---
-title: Roadmap Finansial Anak Muda: Dari Gaji Pertama ke Investasi Pertama
+title: "Roadmap Finansial Anak Muda: Dari Gaji Pertama ke Investasi Pertama"
 slug: roadmap-finansial-anak-muda
 description: >- 
   Panduan lengkap buat kamu yang baru dapet gaji pertama dan bingung mau mulai dari mana ngatur duit dan investasi.
