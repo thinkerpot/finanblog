@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "Roadmap Finansial Anak Muda: Dari Gaji Pertama ke Investasi Pertama"
 slug: roadmap-finansial-anak-muda
 description: >- 
