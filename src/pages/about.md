@@ -1,9 +1,49 @@
-Welcome to this blog template by [cassidoo](https://cassidoo.co)!
+# Halo, Selamat Datang di **Finance by EduCentrals**! 💸
 
-It's using Astro and TinaCMS. You can [clone it on GitHub](https://github.com/cassidoo/blahg) to use it for yourself, and see how it works! I would _love_ if you told me when you do use it, I love seeing variations on it!
+Di sini, kami percaya bahwa **melek finansial itu bukan pilihan, tapi kebutuhan.**
 
-The tags at the bottom of the page are dynamically generated. The more tags you use, the more tags are added to the list! Posts are simple markdown files.
+Blog ini dibuat buat kamu—anak muda, pekerja, mahasiswa, bahkan orang tua yang pengen ngerti gimana cara:
+- Mengatur keuangan pribadi
+- Menyusun strategi investasi
+- Bangun bisnis dari nol
+- Hindari jebakan *gaji numpang lewat*
 
-You should also check out [my newsletter](https://cassidoo.co/newsletter), or my word game [Jumblie](https://jumblie.com/?utm_campaign=blahgtmp&utm_source=github), or my [GitHub profile](https://github.com/cassidoo). Or don't. Follow your dreams.
+---
 
-Enjoy!
+## 🎯 Misi Kami
+
+Kami hadir untuk menyederhanakan dunia keuangan yang kadang terdengar rumit.  
+Lewat artikel, tips, dan panduan praktis, **kami bantu kamu jadi versi terbaik dari keuanganmu.**
+
+Tanpa istilah ribet. Tanpa bahasa elit. Cuma konten yang **bermanfaat dan mudah dicerna.**
+
+---
+
+## ✍️ Siapa Kami?
+
+Blog ini dikelola oleh tim dari **EduCentrals**, platform edukasi digital yang fokus pada literasi digital, edukasi modern, dan... **cuan sehat.**
+
+Kami punya latar belakang di:
+- Edukasi
+- Teknologi
+- Keuangan digital
+- Dunia kreatif & konten
+
+Kombinasi mantap buat kasih kamu insight yang gak cuman teori doang, tapi bisa langsung **lo praktekin.**
+
+---
+
+## 🚀 Yuk Mulai Perjalanan Finansialmu!
+
+Mulai dari artikel ini:
+- [Roadmap Finansial Anak Muda](/posts/roadmap-finansial-anak-muda)
+- [Cara Nabung dengan Gaji 3 Juta](/posts/nabung-gaji-3-juta)
+- [Tips Bangun Bisnis Online](/posts/bisnis-online-modal-kecil)
+
+Follow dan bookmark blog ini, karena kita bakal update rutin tiap minggu.  
+**Cuan bukan soal besar kecilnya uang, tapi gimana cara lo ngelolanya.**
+
+---
+
+Sampai jumpa di artikel-artikel selanjutnya!  
+**– Tim Finance by EduCentrals 🧠💰**
