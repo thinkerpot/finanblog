@@ -36,9 +36,9 @@ Kombinasi mantap buat kasih kamu insight yang gak cuman teori doang, tapi bisa l
 ## 🚀 Yuk Mulai Perjalanan Finansialmu!
 
 Mulai dari artikel ini:
-- [Roadmap Finansial Anak Muda](/posts/roadmap-finansial-anak-muda)
-- [Cara Nabung dengan Gaji 3 Juta](/posts/nabung-gaji-3-juta)
-- [Tips Bangun Bisnis Online](/posts/bisnis-online-modal-kecil)
+- [Roadmap Finansial Anak Muda](/post/roadmap-finansial-anak-muda)
+- [Cara Nabung dengan Gaji 3 Juta](/post/nabung-gaji-3-juta)
+- [Tips Bangun Bisnis Online](/post/bisnis-online-modal-kecil)
 
 Follow dan bookmark blog ini, karena kita bakal update rutin tiap minggu.  
 **Cuan bukan soal besar kecilnya uang, tapi gimana cara lo ngelolanya.**
