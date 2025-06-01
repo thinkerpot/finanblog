@@ -4,7 +4,7 @@ slug: roadmap-finansial-anak-muda
 description: >- 
   Panduan lengkap buat kamu yang baru dapet gaji pertama dan bingung mau mulai dari mana ngatur duit dan investasi.
 added: "Juni 1 2025"
-heroImage: /images/roadmap-finansial.jpg
+heroImage: /images/roadmap-finansial.png
 tags: 
   - keuangan
   - anak muda
