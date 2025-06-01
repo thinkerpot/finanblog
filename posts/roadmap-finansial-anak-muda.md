@@ -1,9 +1,16 @@
 ---
-title: "Roadmap Finansial Anak Muda: Dari Gaji Pertama ke Investasi Pertama"
-description: "Panduan lengkap buat kamu yang baru dapet gaji pertama dan bingung mau mulai dari mana ngatur duit dan investasi."
-pubDate: 2025-06-01
+title: Roadmap Finansial Anak Muda: Dari Gaji Pertama ke Investasi Pertama
+slug: roadmap-finansial-anak-muda
+description: >- 
+  Panduan lengkap buat kamu yang baru dapet gaji pertama dan bingung mau mulai dari mana ngatur duit dan investasi.
+added: "Juni 1 2025"
 heroImage: /images/roadmap-finansial.jpg
-tags: [keuangan, anak muda, roadmap, investasi, tips]
+tags: 
+  - keuangan
+  - anak muda
+  - roadmap
+  - investasi
+  - tips
 ---
 
 ## Lo Gak Akan Kaya Cuma Karena Gaji Naik 💸
