@@ -3,12 +3,31 @@ const today = new Date();
 ---
 
 <footer>
-	&copy; {today.getFullYear()} Finance by EduCentrals. <a href="https://educentrals.com/">This Main Blog</a>! <3
+  <nav class="footer-nav">
+    <a href="/about">About</a> |
+    <a href="/disclaimer">Disclaimer</a> |
+    <a href="/privacy-policy">Privacy Policy</a> |
+    <a href="/cookie-policy">Cookie Policy</a> |
+    <a href="/contact">Contact</a>
+  </nav>
+  &copy; {today.getFullYear()} Finance by EduCentrals. <a href="https://educentrals.com/">This Main Blog</a>! <3
 </footer>
+
 <style>
-	footer {
-		padding: 25px;
-		text-align: center;
-		font-size: 0.8rem;
-	}
+  footer {
+    padding: 25px;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .footer-nav {
+    margin-bottom: 1rem;
+  }
+  .footer-nav a {
+    margin: 0 0.4rem;
+    text-decoration: none;
+    color: var(--gray);
+  }
+  .footer-nav a:hover {
+    text-decoration: underline;
+  }
 </style>
