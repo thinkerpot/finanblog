@@ -1,54 +1,111 @@
-# Cassidy's blog template
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/eab04209-5f7f-41ed-a8dd-c45a9ebb1834/deploy-status)](https://app.netlify.com/sites/blahg/deploys)
+# 💸 finance.educentrals.com
 
-Hello, welcome. This is a blog ("blahg" is the proper spelling for Chicagoans) template. It's built with [Astro](https://astro.build), and uses [TinaCMS](https://tina.io) to edit the content!
+**Website Edukasi Finansial & Bisnis**  
+Powered by Astro + Deployed via Cloudflare Pages  
+📍 Live: [https://finance.educentrals.com](https://finance.educentrals.com)
 
-![cover](https://github.com/cassidoo/blahg/assets/1454517/b56ff04f-9499-48e7-be62-d9b422c4287d)
+---
 
-## See the blahg
+## 🚀 Tentang Proyek Ini
 
-[blahg.netlify.app](https://blahg.netlify.app/)
+`finance.educentrals.com` adalah situs blog edukasi finansial dan bisnis yang menyajikan konten premium, praktis, dan berorientasi solusi. Dibangun menggunakan Astro, framework modern berbasis komponen yang ringan dan super cepat. Website ini di-deploy ke Cloudflare Pages agar bisa dinikmati dengan kecepatan kilat dan keamanan tingkat dewa.
 
-## To use the template
+Website ini membahas:
 
-- Connect to your chosen hosting provider (see Deploy to Netlify button below if you want to go that route, otherwise use the GitHub template button above and pick a different one)
-- Make an account at [tina.io](https://tina.io/)
-- Add your TinaCMS keys (see below)
-- Update `astro.config.mjs` with your domain
-- Edit `src/config.js`
-- Add your URL in line 1 of `public/robots.txt`
-- Add your links in `src/components/Header.astro`
-- Update the intro in `pages/about.md`
-- Edit the images in `public/` (optional)
-- Edit whatever tags you want in `tina/config.js` (optional)
+- 📊 Tips Keuangan Pribadi
+- 🧠 Mindset Bisnis & Investasi
+- 📚 Edukasi Finansial untuk Semua Kalangan
+- 💼 Tools, Review, & Insight Seputar Dunia Bisnis Digital
 
-After this, you can add your content to `posts/` with Markdown files, or with TinaCMS by going to `yoururl.com/admin`!
+---
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/blahg)
+## 🧱 Tech Stack
 
-And finally, please ping me (via social media, or in a GitHub Issue, or whatever) if you use this template! I would love to see your writing and subscribe to your RSS feed!
+| Teknologi         | Keterangan                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| `Astro`          | Framework statis modern, SEO-friendly, dan ultra-fast                      |
+| `Markdown`       | Untuk menulis konten artikel dengan clean syntax                           |
+| `Cloudflare Pages` | Deployment static site yang ringan dan cepat                              |
+| `Cassidy's Theme`| Template dasar yang dimodifikasi untuk kebutuhan blog finansial            |
+| `SEO Optimized`  | Meta tag, sitemap, RSS, dan struktur heading sesuai pedoman Google         |
 
-## Run it yourself
+---
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                          | Action                                                        |
-| :------------------------------- | :------------------------------------------------------------ |
-| `npm install`                    | Installs dependencies                                         |
-| `npm run dev`                    | Starts local dev server at `localhost:4321`                   |
-| `npx tinacms dev -c 'astro dev'` | Manually run local server if the regular command doesn't work |
-| `npm run build`                  | Build your production site to `./dist/`                       |
-| `npm run preview`                | Preview your build locally, before deploying                  |
-
-You go to `localhost:4321/admin/index.html` to see the CMS and use it. If you want to clone this for yourself, you'll need a `.env.development` file that has the following in it:
+## 📁 Struktur Folder (Simplified)
 
 ```
-TINACLIENTID=<from tina.io>
-TINATOKEN=<from tina.io>
-TINASEARCH=<from tina.io>
+/
+├── public/             # Static assets (images, favicon, etc)
+├── src/
+│   ├── pages/          # Halaman utama dan artikel
+│   ├── layouts/        # Layout website (jika ada)
+│   ├── components/     # Komponen Astro
+│   ├── styles/         # Custom CSS / SCSS
+├── astro.config.mjs    # Konfigurasi Astro
+├── package.json        # Info dependencies & scripts
 ```
 
-If you get a remote GraphQL schema error, chances are you need to update TinaCMS, [details here](https://tina.io/docs/introduction/faq#how-do-i-resolve-the-local-graphql-schema-doesnt-match-the-remote-graphql-schema-errors)!
+---
 
-**Have fun!**
+## ⚙️ Cara Jalankan di Lokal
+
+```bash
+# 1. Clone repo ini
+git clone https://github.com/educentrals/finance-educentrals.git
+cd finance-educentrals
+
+# 2. Install dependencies
+npm install
+
+# 3. Jalankan server lokal
+npm run dev
+```
+
+Website akan muncul di `http://localhost:4321`.
+
+---
+
+## 🌐 Deployment
+
+Project ini otomatis di-deploy ke Cloudflare Pages via GitHub integration.  
+Setiap push ke branch `main` akan langsung terdeploy.
+
+---
+
+## 🧠 Kontribusi
+
+Kontribusi selalu terbuka! Kamu bisa bantu:
+
+- Nambahin artikel baru
+- Fix bug layout/responsiveness
+- Optimasi SEO lanjutan
+- Bikin fitur baru (search, dark mode, dll)
+
+---
+
+## 📩 Kontak
+
+Kalau ada pertanyaan atau mau kolaborasi, langsung DM atau email:
+
+- 🌐 [https://educentrals.com](https://educentrals.com)
+- 📧 admin@educentrals.com
+
+---
+
+## 📜 Lisensi
+
+MIT License.  
+Bebas dipakai, dimodifikasi, asal tetap kasih kredit, bro!
+
+---
+
+## 🙌 Dukungan
+
+Kalau ngerasa konten dan proyek ini bermanfaat, bantu support dengan:
+
+- 🌟 Star repo ini
+- 🔗 Share link ke sosial media
+- ☕ Traktir kopi di [Buy Me a Coffee](https://buymeacoffee.com/educentrals) *(soon)*
+
+---
