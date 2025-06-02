@@ -85,6 +85,22 @@ const tags = getTags(posts);
   }
   </script>
 
+  <!-- Schema: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://finance.educentrals.com/"
+      }
+    ]
+  }
+  </script>
+
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
