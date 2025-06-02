@@ -11,7 +11,7 @@ const posts = await getCollection("posts");
 const allTags = getTags(posts);
 
 let {
-	content: { title, description, added, updated, tags, heroImage },
+	content: { title, description, added, updated, tags, heroImage, slug },
 } = Astro.props;
 
 const isoDatePublished = new Date(added).toISOString();
