@@ -3,7 +3,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://finance.educentrals.com/",
+	site: "https://finance.educentrals.com",
 	base: "/",
 	integrations: [sitemap()],
 	markdown: {
