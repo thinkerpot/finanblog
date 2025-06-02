@@ -18,6 +18,39 @@ const tags = getTags(posts);
 <html lang="id">
 	<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 
+  <!-- Schema: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Finance by EduCentrals",
+    "url": "https://finance.educentrals.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://finance.educentrals.com/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Schema: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Finance by EduCentrals",
+    "url": "https://finance.educentrals.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://finance.educentrals.com/favicon.ico"
+    },
+    "sameAs": [
+      "https://www.instagram.com/educentrals",
+      "https://www.linkedin.com/company/educentrals"
+    ]
+  }
+  </script>
+
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
