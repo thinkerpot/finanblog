@@ -35,8 +35,37 @@ if (updated) {
 }
 ---
 
-<html lang="en-us">
+<html lang="id">
 	<BaseHead title={title} description={description} />
+
+		<!-- JSON-LD BlogPosting Schema -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "BlogPosting",
+	  "headline": "{title}",
+	  "description": "{description}",
+	  "image": "{heroImage ?? '/default-og-image.jpg'}",
+	  "author": {
+	    "@type": "Organization",
+	    "name": "Finance by EduCentrals"
+	  },
+	  "publisher": {
+	    "@type": "Organization",
+	    "name": "Finance by EduCentrals",
+	    "logo": {
+	      "@type": "ImageObject",
+	      "url": "https://finance.educentrals.com/logo.png"
+	    }
+	  },
+	  "datePublished": "{added}",
+	  "dateModified": "{updated ?? added}",
+	  "mainEntityOfPage": {
+	    "@type": "WebPage",
+	    "@id": "https://finance.educentrals.com/posts/{slug}"
+	  }
+	}
+	</script>
 
 	<body>
 		<Header />
