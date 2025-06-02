@@ -18,6 +18,16 @@ const tags = getTags(posts);
 <html lang="id">
 	<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KLHP84Z98"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KLHP84Z98');
+</script>
+
   <!-- Schema: WebSite -->
   <script type="application/ld+json">
   {
