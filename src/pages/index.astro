@@ -51,6 +51,40 @@ const tags = getTags(posts);
   }
   </script>
 
+  <!-- Schema: FAQPage for Rich Snippet -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Apa itu Finance by EduCentrals?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Finance by EduCentrals adalah blog edukasi keuangan yang menyajikan tips praktis, panduan investasi, dan strategi bisnis untuk anak muda."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Apa saja topik yang dibahas di blog ini?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Kami membahas topik seperti budgeting, investasi pemula, cara menabung, membangun bisnis, serta cara keluar dari jebakan gaji UMR."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Apakah kontennya cocok untuk pemula?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ya, semua konten dirancang agar mudah dipahami oleh siapa saja yang baru mulai belajar mengatur keuangan."
+        }
+      }
+    ]
+  }
+  </script>
+
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
