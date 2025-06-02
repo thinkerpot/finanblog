@@ -14,6 +14,10 @@ let {
 	content: { title, description, added, updated, tags, heroImage },
 } = Astro.props;
 
+const isoDatePublished = new Date(added).toISOString();
+const isoDateModified = updated ? new Date(updated).toISOString() : isoDatePublished;
+const imageUrl = heroImage ?? "/home-blog-card.png";
+
 added = new Date(added).toLocaleDateString(
 	"en-us",
 	{
@@ -45,7 +49,10 @@ if (updated) {
     "@type": "BlogPosting",
     "headline": "{title}",
     "description": "{description}",
-    "image": "{imageUrl}",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://finance.educentrals.com{imageUrl}"
+    },
     "author": {
       "@type": "Organization",
       "name": "Finance by EduCentrals",
@@ -56,7 +63,7 @@ if (updated) {
       "name": "Finance by EduCentrals",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://finance.educentrals.com/logo.png"
+        "url": "https://finance.educentrals.com/favicon.ico"
       }
     },
     "datePublished": "{isoDatePublished}",
@@ -65,6 +72,34 @@ if (updated) {
       "@type": "WebPage",
       "@id": "https://finance.educentrals.com/posts/{slug}"
     }
+  }
+  </script>
+
+  <!-- JSON-LD Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://finance.educentrals.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Artikel",
+        "item": "https://finance.educentrals.com/posts/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "{title}",
+        "item": "https://finance.educentrals.com/posts/{slug}"
+      }
+    ]
   }
   </script>
 
