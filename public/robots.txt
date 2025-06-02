@@ -1,4 +1,5 @@
 Sitemap: https://finance.educentrals.com/sitemap-index.xml
+Sitemap: https://finance.educentrals.com/sitemap-0.xml
 
 User-agent: *
 Disallow:
